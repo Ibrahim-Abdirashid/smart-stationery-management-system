@@ -1,0 +1,14 @@
+# .NET (Backend)
+bin/
+obj/
+*.user
+*.lock.json
+
+# React (Frontend)
+node_modules/
+dist/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
