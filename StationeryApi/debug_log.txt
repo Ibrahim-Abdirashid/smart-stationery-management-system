@@ -1,0 +1,32 @@
+
+[1/4/2026 7:45:46 PM] DebtService Constructor Start
+[1/4/2026 7:45:47 PM] Settings Value: OK
+[1/4/2026 7:45:47 PM] ConnString: mongodb://localhost:27017
+[1/4/2026 7:45:47 PM] DbName: StationeryDb
+[1/4/2026 7:45:47 PM] CollectionName (Raw): Debts
+[1/4/2026 7:45:47 PM] Using CollectionName: Debts
+[1/4/2026 7:45:47 PM] DebtService Init Success
+
+[1/16/2026 8:37:48 AM] DebtService Constructor Start
+[1/16/2026 8:37:48 AM] Settings Value: OK
+[1/16/2026 8:37:48 AM] ConnString: mongodb://localhost:27017
+[1/16/2026 8:37:48 AM] DbName: StationeryDb
+[1/16/2026 8:37:48 AM] CollectionName (Raw): Debts
+[1/16/2026 8:37:48 AM] Using CollectionName: Debts
+[1/16/2026 8:37:48 AM] DebtService Init Success
+
+[1/16/2026 8:48:23 AM] DebtService Constructor Start
+[1/16/2026 8:48:23 AM] Settings Value: OK
+[1/16/2026 8:48:23 AM] ConnString: mongodb://localhost:27017
+[1/16/2026 8:48:23 AM] DbName: StationeryDb
+[1/16/2026 8:48:23 AM] CollectionName (Raw): Debts
+[1/16/2026 8:48:23 AM] Using CollectionName: Debts
+[1/16/2026 8:48:23 AM] DebtService Init Success
+
+[1/16/2026 9:22:01 AM] DebtService Constructor Start
+[1/16/2026 9:22:01 AM] Settings Value: OK
+[1/16/2026 9:22:01 AM] ConnString: mongodb://localhost:27017
+[1/16/2026 9:22:01 AM] DbName: StationeryDb
+[1/16/2026 9:22:01 AM] CollectionName (Raw): Debts
+[1/16/2026 9:22:01 AM] Using CollectionName: Debts
+[1/16/2026 9:22:01 AM] DebtService Init Success

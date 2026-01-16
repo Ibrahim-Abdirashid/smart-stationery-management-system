@@ -20,6 +20,7 @@ builder.Services.AddSingleton<IMongoClient>(s => {
 // 2. REGISTER SERVICES
 builder.Services.AddSingleton<ProductService>();
 builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<DebtService>();
 builder.Services.AddSingleton<JwtService>();
 
 // 3. AUTHENTICATION & JWT CONFIGURATION
