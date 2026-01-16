@@ -4,6 +4,7 @@ import SalesHistory from '../SalesHistory';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
+import DebtManagement from '../components/DebtManagement';
 
 const API_URL = "http://localhost:5112/api/Products";
 
@@ -197,6 +198,8 @@ function Dashboard() {
                 );
             case 'sales':
                 return <SalesHistory sales={sales} />;
+            case 'debt':
+                return <DebtManagement />;
             case 'add-product':
                 return (
                     <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-slate-100">

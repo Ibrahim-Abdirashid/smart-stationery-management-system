@@ -17,7 +17,7 @@ const Login = () => {
             login(res.data.token);
             navigate('/dashboard');
         } catch (err) {
-            setError('Invalid credentials');
+            setError('Invalid credentials', err);
         }
     };
 

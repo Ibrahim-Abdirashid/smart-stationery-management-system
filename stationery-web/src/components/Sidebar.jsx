@@ -8,6 +8,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
         { id: 'overview', label: 'Overview', icon: '📊' },
         { id: 'products', label: 'Products', icon: '📦' },
         { id: 'sales', label: 'Sales History', icon: '📝' },
+        { id: 'debt', label: 'Debt Management', icon: '📒' },
     ];
 
     if (user?.role === 'Owner') {
@@ -32,8 +33,8 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
                         key={item.id}
                         onClick={() => setActiveTab(item.id)}
                         className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl font-bold transition-all ${activeTab === item.id
-                                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-900/50'
-                                : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                            ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-900/50'
+                            : 'text-slate-400 hover:bg-slate-800 hover:text-white'
                             }`}
                     >
                         <span className="text-xl">{item.icon}</span>
